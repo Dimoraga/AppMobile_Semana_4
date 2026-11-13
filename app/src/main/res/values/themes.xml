@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.PizzeriaIlNono" parent="android:Theme.Material.Light.NoActionBar">
+        <!-- Evita la pantalla negra mientras Compose dibuja el primer frame -->
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+</resources>
